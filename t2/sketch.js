@@ -31,7 +31,7 @@ function setup() {
     noCursor();
     stroke(255);
     // Init socket
-    socket = io.connect("http://localhost:3000");
+    socket = io.connect("http://134.122.77.226:3000");
     socket.on('connect', function () {
         console.log("SOCKET_CONNECTED");
     });
